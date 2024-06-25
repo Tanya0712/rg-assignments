@@ -41,3 +41,5 @@ git push origin
 
 
 Q6. Create a github account and repository to save all your assignment tasks. Example repository name: rg-assignments
+
+Q7. Create a branch called feature-java(you can use it later to push all your java related tasks to this branch) 
