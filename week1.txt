@@ -1,0 +1,43 @@
+Q1. What is the use of the git add command?
+A. The git add command in Git is used to add changes from working directory to the staging area.
+
+Q2. Write the command to create a branch “feature-login”
+A.	To create a branch:
+		git branch feature-login
+     
+     	To change from current branch to feature-login branch:
+		git checkout feature-login
+     
+Using the -b option on checkout will create a new branch, and move to it, if it does not exist:
+	git checkout -b feature-login
+
+Q3. What is a pull request? Write the steps involved in creating a pull request.
+A. A pull request (PR) is a feature in Git-based repository hosting services (such as GitHub) that allows developers to propose changes to a project hosted on a central repository.
+
+Steps involved in creating a pull request:
+Fork the Repository
+Clone the repo
+Make and Commit Changes in your remote repo
+Push Branch to Remote
+Create Pull Request on GitHub
+
+Q4. How do you add collaborators?
+A. 1. Go to the repository page on GitHub.
+     2. Click on the "Settings" tab, located near the top-right corner of the repository page.
+     3. In the left sidebar of the settings page, click on "Collaborators"
+     4. Type the GitHub username, email address, or name of the person you want to invite as     a collaborator.
+     5.Select the appropriate user from the suggestions.
+     6.Click "Add collaborator".
+
+Q5. What is the command used to commit our changes in github repo?
+A.	 # Stage changes
+git add .
+
+# Commit changes with a descriptive message
+git commit -m "Implemented login functionality"
+
+# Push changes to GitHub
+git push origin
+
+
+Q6. Create a github account and repository to save all your assignment tasks. Example repository name: rg-assignments
